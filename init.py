@@ -13,7 +13,6 @@ url_counter = Counter(all_urls)
 # 将结果根据出现次数排序
 sorted_urls = sorted(url_counter.items(),key=lambda item: item[1], reverse=True)
 print("已排序")
-# 写入文件
 web_count = 0
 
 with open('sorted_urls.txt', 'w', encoding="utf-8") as file:
