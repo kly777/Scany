@@ -1,7 +1,5 @@
-from DrissionPage import ChromiumPage
 from DrissionPage import Chromium
 
-import os
 browser = Chromium()
 def get_g_url(q):
     try:
